@@ -41,3 +41,27 @@ forward(200)
 right(90)
 pendown()
 forward(400)
+
+
+#OR
+
+penup()
+right(90)
+forward(200)
+right(90)
+forward(100)
+right(90)
+for i in range(2):
+    pendown()
+    forward(400)
+    penup()
+    right(90)
+    forward(100)
+    pendown()
+    right(90)
+penup()
+right(90)
+forward(200)
+pendown()
+left(90)
+forward(400)
