@@ -25,3 +25,6 @@ for i in range(2): #complete the middle 2 circles at last.
     penup()
     forward(100)
     pendown()
+penup()
+setposition(0,0)
+# Tracy needs to go to the main position after commands.
